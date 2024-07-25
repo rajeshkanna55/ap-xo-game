@@ -1,0 +1,24 @@
+.welcome_note{
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.button_play{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.players_name{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 798px) {
+  .players_name{
+    display: block;
+  }
+
+}
